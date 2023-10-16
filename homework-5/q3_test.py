@@ -13,4 +13,4 @@ X = dv.transform([client])
 y_pred = model.predict_proba(X)
 
 print('Scoring client...')
-print(y_pred)
+print(y_pred[:,1])
