@@ -32,7 +32,17 @@ In this case, the precision-recall curves and the F1 score curve indicat an opti
 ![Precision, recall, and F1 curves](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-4/HW4_F1.png)
 
 ### Model Cross-Validation and Hyperparameter Tuning:
-Cross-validation techniques are employed for model optimization, assessing model performance across different folds of the dataset. Hyperparameter tuning, specifically for the regularization strength (C parameter), enhances the model's predictive capabilities.  Optimal C here is 10 - the highest value explored.  Exploring even larger values could lead to increased performance.
+Cross-validation techniques are employed for model optimization, assessing model performance across different folds of the dataset. Hyperparameter tuning, specifically for the regularization strength (C parameter), enhances the model's predictive capabilities.
+
+ROC-AUC scores for different values of C:
+```
+C=0.01 0.952 +- 0.004
+C=0.1 0.971 +- 0.003
+C=0.5 0.977 +- 0.001
+C=10 0.982 +- 0.003
+```
+
+Optimal C here is 10 - the highest value explored.  Exploring even larger values could lead to increased performance.
 
 ### Conclusion:
 The project showcases robust data preprocessing, feature importance exploration for classification tasks, model training, and evaluation techniques using scikit-learn. Its applications include predictive modeling in various industries.
