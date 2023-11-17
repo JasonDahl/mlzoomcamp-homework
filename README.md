@@ -1,5 +1,6 @@
-# mlzoomcamp-homework
-Code for mlzoomcamp homework assignments
+# Code for mlzoomcamp homework assignments
+
+[MLZoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp "Go to the MLZoomcamp repo") is an educational initiative by [DataTalksClub](https://datatalks.club/ "Go to DataTalksClub's homepage") focused on teaching machine learning and data science. The program covers various topics in machine learning, including supervised and unsupervised learning, deep learning, natural language processing, and more. MLZoomcamp often involves lectures, coding exercises, projects, and real-world applications to provide a comprehensive understanding of machine learning concepts and their practical implementations.
 
 | Project Link | Area | Project Description | Libraries |    
 |---|---|---|---|
