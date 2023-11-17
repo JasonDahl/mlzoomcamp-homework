@@ -1,6 +1,6 @@
 # Exploratory Data Analysis and Linear Regression
 
-This project serves as a demonstration of essential data analysis techniques and linear regression implementation using Python within a [Jupyter notebook](./homework-1/01-intro-homework.ipynb "View project notebook"), primarily leveraging Pandas and NumPy libraries. It showcases fundamental data manipulation, exploratory data analysis (EDA), missing data handling, and the application of linear regression — a foundational predictive modeling technique.  Here, model weights for linear regression are calculated through matrix inversion.
+This project serves as a demonstration of essential data analysis techniques and linear regression implementation using Python within a [Jupyter notebook](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-1/01-intro-homework.ipynb) "View project notebook"), primarily leveraging Pandas and NumPy libraries. It showcases fundamental data manipulation, exploratory data analysis (EDA), missing data handling, and the application of linear regression — a foundational predictive modeling technique.  Here, model weights for linear regression are calculated through matrix inversion.
 
 ## Techniques Demonstrated:
 
