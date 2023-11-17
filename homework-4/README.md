@@ -1,7 +1,7 @@
 # Model Evaluation
 
 ### Dataset and Objective:
-This project focuses on model evaluation techniques - ROC AUC, precision, recall, and F1 score.  It starts with a car price dataset, transforming the task into a binary classification problem. The objective is to predict whether a car's price is above its mean value, creating a binary variable ('above_average'). Major techniques involve data preparation, exploratory analysis, model training using logistic regression, cross-validation, and hyperparameter tuning.
+This [project](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-4/04-ml-evaluation-homework.ipynb "View project notebook") focuses on model evaluation techniques - ROC-AUC, precision, recall, and F1 score.  It starts with a car price dataset, transforming the task into a binary classification problem. The objective is to predict whether a car's price is above its mean value, creating a binary variable ('above_average'). Major techniques involve data preparation, exploratory analysis, model training using logistic regression, cross-validation, and hyperparameter tuning.
 
 ### Libraries Utilized:
 - scikit-learn
@@ -14,7 +14,7 @@ This project focuses on model evaluation techniques - ROC AUC, precision, recall
 The notebook preprocesses data, selecting specific columns like 'Make,' 'Model,' 'Year,' 'Engine HP,' 'Engine Cylinders,' 'Transmission Type,' 'Vehicle Style,' 'highway MPG,' 'city MPG,' and 'MSRP' (transformed to 'price'). Missing values are handled by filling them with zeros, and the dataset is split into training, validation, and test sets.
 
 ### Exploratory Data Analysis:
-The project explores feature importance by calculating the ROC AUC for each numerical variable concerning the 'above_average' target variable. ROC-AUC (Receiver Operating Characteristic - Area Under the Curve) measures the model's ability to distinguish between classes, reflecting the trade-off between sensitivity and specificity. This analysis reveals influential features for predicting car prices.  In this case, 'Engine HP" is found to have the greatest importance for predicting MSRP.
+The project explores feature importance by calculating the ROC-AUC for each numerical variable concerning the 'above_average' target variable. ROC-AUC (Receiver Operating Characteristic - Area Under the Curve) measures the model's ability to distinguish between classes, reflecting the trade-off between sensitivity and specificity. This analysis reveals influential features for predicting car prices.  In this case, 'Engine HP" is found to have the greatest importance for predicting MSRP.
 
 ### Model Training and Evaluation:
 Logistic regression models are trained using one-hot encoding and evaluated using AUC on the validation dataset. Precision, recall, and F1 scores are computed to assess model performance.  Precision indicates the accuracy of positive predictions by measuring the proportion of correctly predicted positive cases among all predicted positives, while recall measures the completeness of positive predictions by calculating the proportion of correctly predicted positive cases among all actual positives.
