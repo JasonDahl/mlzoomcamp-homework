@@ -1,9 +1,11 @@
+## Model deployment with Flask, Gunicorn, and Docker
+
 ### Project Overview
 
 #### Objective
 This project focuses on preparing a pre-trained machine learning model for deployment using Flask and containerizing it with Docker. The primary goal is to create a web service that predicts credit probabilities for clients based on a predefined dataset.  A [Jupyter notebook](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-5/05-deployment-homework.ipynb "View Notebook") details development and testing.
 
-#### Key Steps
+### Environment and Model Preparation
 
 **Pipenv Installation and Scikit-Learn Version Installation:**  
 Pipenv, version 2023.10.3, was installed, and Scikit-Learn version 1.3.1 was set up in a dedicated environment for model preparation.
@@ -22,6 +24,7 @@ The  script, '[q3_test.py](https://github.com/JasonDahl/mlzoomcamp-homework/blob
 The script employs error handling techniques for potential issues in unpickling files and reports the calculated credit probability for the defined client profile.
 
 Test from the project notebook with '!pipenv run python q3_test.py'.
+
 ### Web Service Creation
 
 **Flask Web Service Setup:**  
@@ -65,7 +68,7 @@ pipenv run python q4_test.py
 Docker was introduced to containerize the Flask-based model serving system. A [Dockerfile](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-5/Dockerfile "View Dockerfile") was created, leveraging a pre-built image, installing dependencies, copying Flask scripts, and running them with Gunicorn.
 
 **Flask Docker Containerization:**
-The script '[q6_predict.py](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-5/q6_predict.py "View script")' provides Flask-based web service deployment within a Docker container.
+The script '[q6_predict.py](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-5/q6_predict.py "View script")' provides Flask-based web service for deployment within a Docker container.
 
 **Important Features:**
 - **Model Loading and Utilization:**
@@ -88,5 +91,5 @@ The script initiates the Flask application with debugging enabled, allowing acce
 
 When running on Localhost, the service can be tested using the '[q6_test.py](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-5/q6_test.py "View script")' script.
 
-#### Conclusion
+### Conclusion
 The project showcased the steps involved in preparing a pre-trained model using Flask for serving and Docker for containerized deployment, facilitating real-time credit probability estimation.
