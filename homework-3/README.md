@@ -17,6 +17,7 @@ The [project](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homewor
 ### Exploratory Analysis and Feature Correlation
 - Identified the most frequent observation for the 'transmission_type' column ('AUTOMATIC' being the most common).
 - Generated a correlation matrix for numerical features, revealing relationships among variables like 'engine_hp,' 'engine_cylinders,' 'highway_mpg,' and 'city_mpg.'
+  
   ![Heatmap of Feature Correlation Matrix](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-3/HW3_covar.png)
 
 ### Binary Classification Setup
