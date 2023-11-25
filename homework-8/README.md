@@ -3,7 +3,7 @@
 ![Image: A bumblebee](https://github.com/JasonDahl/mlzoomcamp-homework/blob/main/homework-8/bumble.png)
 
 ## Dataset and Objective
-The project aims to build an image classification model to differentiate between bees and wasps. Utilizing the "Bee or Wasp?" dataset from Kaggle, the notebook explores deep learning techniques, specifically Convolutional Neural Networks (CNNs), using TensorFlow and Keras.
+The project aims to build an image classification model to differentiate between bees and wasps. Utilizing the "Bee or Wasp?" dataset from Kaggle, the notebook explores deep learning techniques, specifically Convolutional Neural Networks (CNNs), using TensorFlow and Keras..
 
 ## Libraries Utilized
 The notebook employs numpy, pandas, matplotlib, seaborn, and TensorFlow with Keras for data processing, visualization, and model development.
