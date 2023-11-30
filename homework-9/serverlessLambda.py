@@ -29,7 +29,7 @@ def make_X_array(img):
     return X_array
 
 
-interpreter = tflite.Interpreter(model_path='bee-wasp.tflite')
+interpreter = tflite.Interpreter(model_path='bees-wasps-v2.tflite')
 interpreter.allocate_tensors()
 
 input_index = interpreter.get_input_details()[0]['index']
@@ -48,8 +48,7 @@ def predict(url):
     interpreter.set_tensor(input_index, X)
     interpreter.invoke()
     preds = interpreter.get_tensor(output_index)
-    predicted_label = classes[1 if preds[0] >= threshold else 0]
-    return predicted_label
+    return float(preds[0,0])
 
 
 def lambda_handler(event, context):
